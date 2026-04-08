@@ -41,8 +41,8 @@ function ChevronDown() {
 
 export default function Page() {
   return (
-    <main className="min-h-screen bg-[#f3eee7] text-[#2f2a25]">
-      <section className="relative isolate overflow-hidden bg-[#d8ccb8]">
+    <main className="h-[100dvh] overflow-hidden bg-[#f3eee7] text-[#2f2a25]">
+      <section className="relative isolate h-[100dvh] overflow-hidden bg-[#d8ccb8]">
         <div
           className="absolute inset-0 bg-cover bg-no-repeat brightness-[0.78]"
           style={{
@@ -98,7 +98,7 @@ export default function Page() {
           </div>
         </header>
 
-        <div className="relative mx-auto flex min-h-screen w-full max-w-[1440px] flex-col px-6 pb-8 pt-28 sm:px-8 lg:min-h-[940px] lg:px-10 lg:pb-10 lg:pt-32">
+        <div className="relative mx-auto flex h-[100dvh] w-full max-w-[1440px] flex-col px-6 pb-6 pt-28 sm:px-8 lg:px-10 lg:pb-8 lg:pt-32">
           <div className="max-w-[520px] text-white">
             <p className="text-[0.75rem] font-semibold uppercase tracking-[0.34em] text-white/72">
               Alojamento local na Comporta
@@ -127,7 +127,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="relative mt-auto pt-24 lg:pt-28">
+          <div className="relative mt-auto pt-20 lg:pt-24">
             <div className="mx-auto max-w-[1180px] overflow-hidden rounded-[28px] border border-[#e7ddd1] bg-[rgba(248,244,238,0.98)] shadow-[0_24px_56px_rgba(34,28,23,0.14)]">
               <div className="grid gap-2 px-4 py-4 lg:grid-cols-[1fr_1fr_1fr_230px] lg:items-center lg:gap-0 lg:px-6 lg:py-4">
                 {bookingFields.map((field, index) => (
